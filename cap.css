@@ -1,0 +1,35 @@
+.h{
+    text-align: center;
+    font-style: italic ;
+    color: red;
+}
+
+.pi{
+    color: aliceblue;
+}
+/*
+.head{
+
+    background-image: url(https://wallpapercave.com/dwp1x/wp10042041.jpg);
+} 
+*/
+
+
+@keyframes example {
+    0%   {background-color:rgb(98, 243, 20); left:0px; top:0px;}
+    25%  {background-color:rgb(220, 220, 12); left:1100px; top:0px;}
+    50%  {background-color:#0bc3fbc9; left:1100px; top:600px;}
+    75%  {background-color:#da1cab; left:0px; top:600px;}
+    100% {background-color:rgba(12, 236, 202, 0.89); left:0px; top:0px;}
+  }
+  #animated_div{
+    color: aliceblue;
+    width: 55px;
+    height: 30px;
+    position: relative;
+    background-color: rgba(155, 5, 224, 0.608);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: x-large;
+  }
